@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E8F20A16-55A1-40FA-B2B4-354014C5A345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angular", "Angular", "{CCB0B797-08B2-42B1-875F-DA1BAE4BEDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaRapida.API", "PruebaRapida.API\PruebaRapida.API.csproj", "{6FA42542-CCBA-40E1-9962-B5469C25BF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaRapida.Domain", "PruebaRapida.Domain\PruebaRapida.Domain.csproj", "{9C10BC59-EC54-46B0-8D2E-A65E3A045002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaRapida.Infrastructure", "PruebaRapida.Infrastructure\PruebaRapida.Infrastructure.csproj", "{EA1969F5-6BF7-42BD-B18C-4E7740CB7DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaRapida.Service", "PruebaRapida.Service\PruebaRapida.Service.csproj", "{250EED7F-D9F8-4A67-8B33-BEB3E37661B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA42542-CCBA-40E1-9962-B5469C25BF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA42542-CCBA-40E1-9962-B5469C25BF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA42542-CCBA-40E1-9962-B5469C25BF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA42542-CCBA-40E1-9962-B5469C25BF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C10BC59-EC54-46B0-8D2E-A65E3A045002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C10BC59-EC54-46B0-8D2E-A65E3A045002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C10BC59-EC54-46B0-8D2E-A65E3A045002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C10BC59-EC54-46B0-8D2E-A65E3A045002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1969F5-6BF7-42BD-B18C-4E7740CB7DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1969F5-6BF7-42BD-B18C-4E7740CB7DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1969F5-6BF7-42BD-B18C-4E7740CB7DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1969F5-6BF7-42BD-B18C-4E7740CB7DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250EED7F-D9F8-4A67-8B33-BEB3E37661B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250EED7F-D9F8-4A67-8B33-BEB3E37661B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250EED7F-D9F8-4A67-8B33-BEB3E37661B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250EED7F-D9F8-4A67-8B33-BEB3E37661B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FA42542-CCBA-40E1-9962-B5469C25BF13} = {E8F20A16-55A1-40FA-B2B4-354014C5A345}
+		{9C10BC59-EC54-46B0-8D2E-A65E3A045002} = {E8F20A16-55A1-40FA-B2B4-354014C5A345}
+		{EA1969F5-6BF7-42BD-B18C-4E7740CB7DBE} = {E8F20A16-55A1-40FA-B2B4-354014C5A345}
+		{250EED7F-D9F8-4A67-8B33-BEB3E37661B5} = {E8F20A16-55A1-40FA-B2B4-354014C5A345}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9545C122-DD26-41E1-93C8-58F67A3D7804}
+	EndGlobalSection
+EndGlobal
